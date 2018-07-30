@@ -7,15 +7,15 @@ from multiprocessing import Pool, Process
 from humanfriendly import format_timespan, format_size, format_number, format_length
 import time, random, asyncio, timeit, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, urllib, urllib.parse, ast, pafy, youtube_dl
 botStart = time.time()
-prank = LineClient(authToken='Er3MHvx7IPQUPdp7BpG0.WwjrIJ3eQJbnZu1BDX/GSa.a8tSvqyc1Ppa82Z5qoSKTM5H0in03VBApvcRduU+1JU=')
+prank = LineClient(authToken='EvARIdHZFiAOqlUH2j6d.VqCCUe8su/attWJ3nmY6+q.eBc+/3LMLhYOXHc2EzYyLPfEecJLZRCI4pFTUM/y0bk=')
 prank.log("Auth Token : " + str(prank.authToken))
 channel = LineChannel(prank)
 prank.log("Channel Access Token : " + str(channel.channelAccessToken))
 #======================
-pb1 = LineClient(authToken='ErhKXoQeaHceA6oawNmb.978lfL9GT68D9OxOVFWTIW.CFXckDOlGOrdbO58dgAuIM8zhKICFsa6h53/+HJsxt4=')
+pb1 = LineClient(authToken='Ev07WN52yEOqpst4xz16.nMYWQAZL/PGXZKA3frrUjG.vZpSkBoLn2otgjWGk+VEQp3Hw1DQElYtwsKB0zvdl3o=')
 pb1.log("Auth Token : " + str(pb1.authToken))
 #======================
-pb2 = LineClient(authToken='EryCF7pblbEg77bGSuYd.ELI6CbrnKUEIy2xmQBwKxq.nq/dg7+Hl1zcu/JxMXeNMUY8Pk1/Rn1b1w4I+GDzn3s=')
+pb2 = LineClient(authToken='EvUjUBOTcyiUGNANb0jd.u9XZmFBsXgaEUVd90lD5Bq.Th91SbkJMbqWslb1clDY9+QyGK8XXbxJup2eRd9c364=')
 pb2.log("Auth Token : " + str(pb2.authToken))
 #======================
 settingsOpen = codecs.open("prankbots.json","r","utf-8")
